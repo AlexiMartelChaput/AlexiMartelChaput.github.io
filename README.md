@@ -1,1 +1,75 @@
-readme
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez les tutoriels et œuvres d'art par Alexi Martel-Chaput. Apprenez des techniques innovantes et explorez des créations uniques.">
+    <title>Art par Alexi M.-C.</title>
+    <link rel="icon" href="favicon.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Wrapper to manage scroll behavior -->
+    <div class="wrapper">
+        
+            <!-- Header -->
+            <header>
+                <a href="index.html"><h1>Alexi Martel-Chaput</h1></a>
+                <nav>
+                    <ul>
+                        <li><a href="tutoriels.html">Tutoriels</a></li>
+                        <li><a href="galerie.html">Galerie</a></li>
+                        <li><a href="a_propos.html">À propos</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+						<li><a href="https://www.instagram.com/alexi.iamsee" target="_blank">
+							<img src="insta.png" alt="Instagram: alexi.iamsee" style="width: 40px; height: 40px;"></a></li>
+                    </ul>
+                </nav>
+				<!-- Instagram Image Link -->
+            </header>
+		<div class="main-content">
+            <!-- Welcome Section -->
+			<section id="welcome" class="welcome">
+					<div class="welcome-content">
+						<h1><em>Bienvenue !</em></h1>
+						<a href="galerie.html" class="gallery-link">Découvrez mes oeuvres! ></a>
+					</div>
+			</section>
+		<hr class="separator">
+            <!-- Last Tuto Section -->
+            <section id="lastTuto" class="last-tuto">
+			<h2 id="last-tuto" class="last-tuto" >Section tutoriels</h2>
+                <div class="last-tuto-content">
+                    <iframe src="https://www.youtube.com/embed/WUmSB8U50ro" frameborder="0" height=420px width=420px ></iframe>
+                    <div class="last-tuto-description">
+                        <p>Découvrez mes tutoriels pour apprendre. <br>Des techniques intéressantes et innovantes!</p>
+                        <a href="tutoriels.html" class="tuto-link">Voir tous les tutoriels</a>
+                    </div>
+                </div>
+            </section>
+			</div>
+
+            <!-- Footer -->
+            <footer>
+				<img src="favicon.png" alt="AMC" class="footer-image">
+                <nav>
+                    <ul>
+                        <li><a href="tutoriels.html" aria-label="Voir les tutoriels">Tutoriels</a></li>
+                        <li><a href="galerie.html" aria-label="Voir la gallerie">Galerie</a></li>
+                        <li><a href="a_propos.html" aria-label="En savoir plus sur moi">À propos</a></li>
+                        <li><a href="contact.html" aria-label="Me contacter">Contact</a></li>
+                    </ul>
+                </nav>
+				
+                <p>© 2025 Alexi Martel-Chaput. Tous droits réservés.</p>
+            </footer>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
