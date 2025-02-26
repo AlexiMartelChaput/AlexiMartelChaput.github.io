@@ -5,8 +5,8 @@
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-495CXJGZBT"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
+	    window.dataLayer = window.dataLayer || [];
+	    function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'G-495CXJGZBT');
     </script>
@@ -19,10 +19,8 @@
 </head>
 
 <body>
-
     <!-- Wrapper to manage scroll behavior -->
     <div class="wrapper">
-        
             <!-- Header -->
             <header>
                 <a href="index.html"><h1>Alexi Martel-Chaput</h1></a>
@@ -59,7 +57,6 @@
                 </div>
             </section>
 			</div>
-
             <!-- Footer -->
             <footer>
 				<img src="favicon.png" alt="AMC" class="footer-image">
@@ -71,10 +68,8 @@
                         <li><a href="contact.html" aria-label="Me contacter">Contact</a></li>
                     </ul>
                 </nav>
-				
                 <p>© 2025 Alexi Martel-Chaput. Tous droits réservés.</p>
             </footer>
-
         </div>
     </div>
 
